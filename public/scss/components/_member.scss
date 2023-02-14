@@ -1,0 +1,20 @@
+.member {
+    position: relative;
+    padding-top: 80%;
+    &__name, &__job {
+        padding: 0 10px;
+        color: #FFF;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    }
+    &__job {
+        padding-bottom: 10px;
+    }
+
+    $members: david, laura, matt, natalie, sarah, steve, tahlia, will;
+    @each $member in $members {
+    &__#{$member} {
+        background: url(../images/#{$member}.jpg) no-repeat;
+        background-size: 100% auto;
+        }
+    }
+}
