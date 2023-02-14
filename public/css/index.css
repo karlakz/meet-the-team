@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d6cece;
+}
+
+.header__title {
+  margin: 20px;
+  text-align: center;
+  animation: header 2s ease-in-out 0s forwards;
+}
+
+@keyframes header {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+}
+
+.members {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.member {
+  position: relative;
+  padding-top: 80%;
+}
+
+.member__name, .member__job {
+  padding: 0 10px;
+  color: #FFF;
+  text-shadow: 0px 0px 10px black;
+}
+
+.member__job {
+  padding-bottom: 10px;
+}
+
+.member__david {
+  background: url(../images/david.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+.member__laura {
+  background: url(../images/laura.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+.member__matt {
+  background: url(../images/matt.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+.member__natalie {
+  background: url(../images/natalie.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+.member__sarah {
+  background: url(../images/sarah.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+.member__steve {
+  background: url(../images/steve.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+.member__tahlia {
+  background: url(../images/tahlia.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+.member__will {
+  background: url(../images/will.jpg) no-repeat;
+  background-size: 100% auto;
+}
